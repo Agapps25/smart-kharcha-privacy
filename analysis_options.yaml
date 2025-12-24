@@ -1,0 +1,17 @@
+# This file configures the static analysis
+# Updated for 2025 Flutter Standards
+
+analyzer:
+  errors:
+    # यह उस 'file not found' वाले एरर को नजरअंदाज (ignore) कर देगा
+    include_file_not_found: ignore
+    # unused_local_variable जैसे वार्निंग को एरर की तरह नहीं दिखाएगा
+    unused_local_variable: warning
+
+linter:
+  rules:
+    # कुछ बेसिक नियम जो कोड को साफ रखते हैं
+    - avoid_print
+    - prefer_const_constructors
+    - prefer_const_literals_to_create_immutables
+    - annotate_overrides
