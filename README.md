@@ -2,10 +2,9 @@
 
 A smart, bilingual (Hindi/English) expense tracker app that helps you manage your daily finances securely and intuitively. All your data stays on your device—no internet or cloud required.
 
-[![Flutter](https://img.shields.io/badge/Flutter-3.16-blue?logo=flutter)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.2-blue?logo=dart)](https://dart.dev)
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/Agapps25/smart-kharcha-privacy?style=social)](https://github.com/Agapps25/smart-kharcha-privacy/stargazers)
 
 ## ✨ Features
 
@@ -51,13 +50,16 @@ Once you have screenshots:
     ```
 
 ## 🏗️ Project Structure
+
+```
 lib/
-├── models/ # Data models (Transaction, Category, etc.)
-├── services/ # Core logic (TransactionService, LanguageService)
-├── screens/ # UI Screens (Home, AddTransaction, Reports, Settings, etc.)
-├── widgets/ # Reusable UI components (StatsCard, TransactionTile)
-├── utils/ # Helpers (AppTheme, SecurityUtils, Constants)
-└── main.dart # App entry point
+├── models/           # Data models (Transaction, Category, etc.)
+├── services/         # Core logic (TransactionService, LanguageService)
+├── screens/          # UI Screens (Home, AddTransaction, Reports, Settings, etc.)
+├── widgets/          # Reusable UI components (StatsCard, TransactionTile)
+├── utils/            # Helpers (AppTheme, SecurityUtils, Constants)
+└── main.dart         # App entry point
+```
 
 ## 🔧 Built With
 
